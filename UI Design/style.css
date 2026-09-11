@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+h1{
+    text-align: center;
+    color: #8B1E1E;   /* Dark maroon */
+    margin-top: 40px;
+}
+
+table{
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #7a7a7a;
+}
+
+th, td{
+    border: 2px solid #590b0b;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #e5e5e5;   /* Light grey header */
+}
+
+input[type="text"]{
+    width: 80px;
+    height: 22px;
+    border: 1px solid #888;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button{
+    background-color: #2E8B57;   /* Sea Green (matches screenshot closely) */
+    color: white;
+    border: 1px solid #1F6B43;
+    padding: 8px 20px;
+    font-size: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: #26734D;
+}
