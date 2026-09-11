@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 30px;
+}
+
+.container {
+    width: 650px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #999;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.form-group > label:first-child {
+    width: 150px;
+    font-size: 18px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea,
+select {
+    width: 300px;
+    padding: 9px;
+    font-size: 16px;
+    border: 1px solid #888;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+select {
+    background-color: white;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+.options label {
+    width: auto;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 25px;
+}
+
+button {
+    padding: 10px 25px;
+    margin: 0 6px;
+    font-size: 16px;
+    border: 1px solid #777;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #eee;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
